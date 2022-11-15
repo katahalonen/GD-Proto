@@ -26,4 +26,15 @@ public class PlayerFlap : MonoBehaviour
         direction.y += gravity * Time.deltaTime;
         transform.position += direction * Time.deltaTime;
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag=="Pipe")
+        {
+            FindObjectOfType<ScoreCounter>().GameOver();
+        }
+        else if (collision.gameObject.tag=="Scoring")
+        {
+            FindObjectOfType<ScoreCounter>().IncreaseScore();
+        }
+    }
 }
