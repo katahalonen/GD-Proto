@@ -6,8 +6,8 @@ public class PipeSpawning : MonoBehaviour
 {
     public GameObject prefab;
     [SerializeField] float spawnRate = 1f;
-    [SerializeField] float minHeight = 1f;
-    [SerializeField] float maxHeight = 1f;
+    [SerializeField] float minHeight = -2f;
+    [SerializeField] float maxHeight = 2f;
     // Start is called before the first frame update
     void Start()
     {

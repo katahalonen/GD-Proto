@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TopDown.unity
     guid: c3a3af57cab19ba48b56f5abc48211e0
+  - enabled: 1
+    path: Assets/Scenes/Birb/Minigame1.unity
+    guid: f22c840f597017143b59a2066cfff373
   m_configObjects: {}
