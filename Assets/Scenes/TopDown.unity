@@ -3696,6 +3696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7f004ced7849cd4288b4fb8327abed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mousePosition: {x: 0, y: 0, z: 0}
   moveSpeed: 0.05
 --- !u!212 &983728476
 SpriteRenderer:
