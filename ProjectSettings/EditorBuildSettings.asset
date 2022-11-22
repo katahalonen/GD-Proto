@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Birb/Minigame1.unity
     guid: f22c840f597017143b59a2066cfff373
+  - enabled: 1
+    path: Assets/Scenes/Birb/Minigame2.unity
+    guid: e30c3d9f000c0f3418e6f7861c571bd1
   m_configObjects: {}

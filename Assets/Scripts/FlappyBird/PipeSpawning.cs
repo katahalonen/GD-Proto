@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PipeSpawning : MonoBehaviour
 {
-    public GameObject prefab;
+    public List<GameObject> prefabs;
     [SerializeField] float spawnRate = 1f;
     [SerializeField] float minHeight = -2f;
     [SerializeField] float maxHeight = 2f;
@@ -25,7 +25,9 @@ public class PipeSpawning : MonoBehaviour
     }
     void Spawn() 
     {
-        GameObject pipes = Instantiate(prefab, transform.position, Quaternion.identity);
-        pipes.transform.position += Vector3.up * Random.Range(minHeight, maxHeight);
+        int whichObject = Random.Range(0, prefabs.Count);
+        GameObject pipes = Instantiate(prefabs[whichObject]);
+        //GameObject pipes = Instantiate(prefabs[whichObject], transform.position, Quaternion.identity);
+        //pipes.transform.position += Vector3.up * Random.Range(minHeight, maxHeight);
     }
 }
