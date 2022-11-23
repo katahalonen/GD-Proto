@@ -22,7 +22,6 @@ public class ScoreCounter : MonoBehaviour
     public void IncreaseScore()
     {
         score++;
-        print("lulz");
     }
     public void WinGame() 
     {
