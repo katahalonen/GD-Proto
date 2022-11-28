@@ -46,7 +46,7 @@ public class ScoreCounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (score==15)
+        if (score==5)
         {
             WinGame();
         }
