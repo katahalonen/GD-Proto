@@ -25,7 +25,6 @@ public class ScoreCounter : MonoBehaviour
     }
     public void WinGame() 
     {
-
         win.SetActive(true);
         Time.timeScale = 0;
     }

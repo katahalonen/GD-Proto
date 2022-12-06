@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         theSR = GetComponent<SpriteRenderer>();
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
